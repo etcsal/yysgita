@@ -1,0 +1,87 @@
+body {
+    background-image: url('/image/bg-img.png'); /* Replace with your actual background image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  .signup-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  .background-text {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  .custom-button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+  }
+  .form-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-header img {
+    margin-right: 10px;
+  }
+  .form-header h2 {
+    margin: 0;
+  }
+  .google-button {
+    background-color: white;
+    color: #444;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .google-button img {
+    margin-right: 10px;
+  }
+  .form-text {
+    text-align: left;
+    font-size: 12px;
+    color: #6c757d;
+  }
+  .input-group-text {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+  }
+
+  .card {
+    background: white; /* Warna putih untuk kartu agar teks mudah dibaca */
+    border-radius: 10px;
+  }
+  .reset-password-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 700px;
+  }
+  .body-reset {
+    background-image: url('image/bg-img.png'); /* Ganti dengan path ke file gambar lokalmu */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

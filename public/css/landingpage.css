@@ -1,0 +1,196 @@
+.text-text {
+    width: 50vw; /* Set to half screen width */
+    margin-left: 0; /* Aligns the container to the left */
+    padding: 20px;
+  }
+
+  h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+  }
+
+  .intro p {
+      margin: 5px 0; /* Reduce space between lines */
+      font-size: 16px;
+      line-height: 1.6; /* Line spacing for better readability */
+  }
+
+  .text-text p,
+  .text-text .intro p {
+      text-align: left;
+      margin: 8px 0; /* Reduce margin between paragraphs */
+      font-size: 16px;
+      line-height: 1.5; /* Set line height for more compact text */
+  }
+
+  .read-more {
+      font-size: 16px;
+      color: #007bff;
+      text-decoration: none;
+      cursor: pointer;
+  }
+
+  .read-more:hover {
+      text-decoration: underline;
+  }
+    .text-container {
+      text-align: left;
+    }
+    .bank-list img {
+      width: 40px;
+      margin-right: 15px;
+    }
+    .bank-item {
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+    .modal-footer {
+      justify-content: center;
+    }
+   .footer {
+      background-color: #0A3D72;
+      color: white;
+      padding: 40px 0;
+
+      text-align: start;
+
+    }
+    .footer h2 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #FFC107;
+      margin-bottom: 10px;
+    }
+    .footer p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .social-icons a {
+      color: white;
+      font-size: 24px;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .social-icons a:hover {
+      color: #FFC107;
+    }
+      .gallery-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+    }
+    .copyright {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .whatsapp-icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      font-size: 36px;
+      color: green;
+    }
+      .programs-section {
+            background: linear-gradient(to right, #562B7C, #2D89C3);
+            color: #fff;
+            padding: 50px 0;
+        }
+        .program-card {
+            background-color: #fff;
+            color: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .program-card img {
+            width: 100%;
+            height: auto;
+        }
+        .program-card .card-body {
+            padding: 20px;
+        }
+        .program-card h5 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .program-card p {
+            font-size: 14px;
+        }
+        .btn-donate {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 0;
+            padding: 10px;
+            text-align: center;
+            display: block;
+            width: 100%;
+        }
+   .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #FFFFFF; /* Sesuaikan warna latar */
+            padding: 50px;
+        }
+        .hero-section img {
+            max-width: 300px; /* Sesuaikan ukuran gambar */
+            border-radius: 10px;
+        }
+        .hero-text {
+            margin-left: 20px;
+        }
+        .hero-text h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+        }
+        .hero-text p {
+            font-size: 18px;
+            font-weight: 500;
+            color: #333;
+        }
+
+    .calendar-container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      background-color: #fff;
+    }
+    .calendar-header {
+      font-weight: bold;
+      font-size: 1.25rem;
+      margin-bottom: 15px;
+    }
+    .calendar-days {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 8px;
+      margin-bottom: 15px;
+    }
+    .day {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-weight: bold;
+    }
+    .day.red {
+      background-color: #dc3545;
+      color: white;
+    }
+    .day.blue {
+      background-color: #0d6efd;
+      color: white;
+    }

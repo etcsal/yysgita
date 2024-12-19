@@ -1,0 +1,40 @@
+.list-active a {
+    position: relative; /* Positioning for the pseudo-element */
+    color: #ffff; /* Change text color if needed */
+}
+
+.list-active a::after {
+    content: ""; /* Necessary for the pseudo-element */
+    position: absolute;
+    left: 0; /* Align with the left edge */
+    right: 0; /* Align with the right edge */
+    bottom: -2px; /* Position it below the text */
+    height: 2px; /* Height of the underline */
+    background-color: #ffff; /* Color of the underline */
+}
+
+.modal-header {
+    border-bottom: none;
+}
+.modal-body img {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.details-table {
+    width: 100%;
+    margin-top: 20px;
+}
+.details-table th,
+.details-table td {
+    padding: 8px;
+    vertical-align: top;
+}
+.details-table th {
+    text-align: left;
+    width: 35%;
+}
+.details-table td {
+    text-align: left;
+}
